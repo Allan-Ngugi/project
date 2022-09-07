@@ -10,10 +10,21 @@
 * _CSS_
 * _Javascript_
 
-## Description
+## Derivarables
 
-_This is a website that simply displays a quote when one clicks "Next Quote".In addition one can be able to copy the quote to their clipboard and paste it to their desired
-places also one can like and hear pronunciation of the quote in the audio button.It's simple an effective._
+As a user, I can:
+
+1. See the quote received from the server, including its author, likes and
+   copies to clip board when the page loads. You will need to make a GET request to the
+   following endpoint to retrieve the quote data, along with its associated
+   author:
+   txt
+   GET /quote/1
+   Here is th API the data will be fetched from["http://api.quotable.io/random"]
+
+2. Click on the heart icon to like.
+
+3. Use the twitter Icon to view it in ones personal twitter handle.
 
 ## Setup/Installation Requirements
 
