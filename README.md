@@ -1,8 +1,8 @@
-# _{Daily Dose}_
+# _Daily Dose_
 
-#### _{Simple Quote Display Website}_
+## _Simple quote display website_
 
-#### By _**{Allan Ngugi}**_
+### By _**Allan Ngugi**_
 
 ## Technologies Used
 
@@ -10,22 +10,21 @@
 * _CSS_
 * _Javascript_
 
-
 ## Description
 
-_{This is a website that simply displays a quote when one clicks "Next Quote".In addition one can be able to copy the quote to their clipboard and paste it to their desired places also one can like and hear pronunciation of the quote in the audio button.It's simple an effective.}_
+_This is a website that simply displays a quote when one clicks "Next Quote".In addition one can be able to copy the quote to their clipboard and paste it to their desired
+places also one can like and hear pronunciation of the quote in the audio button.It's simple an effective._
 
 ## Setup/Installation Requirements
 
 * _No installments required for  this website one needs only to click "Next Quote" to generate the next one._
 
-
 ## Known Bugs
 
 * _No bugs detected_
 
-
 ## License
+
 Copyright 2022 Alan Ngugi.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
