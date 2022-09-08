@@ -6,7 +6,7 @@ copyBtn = document.querySelector(".copy"),
 twitterBtn = document.querySelector(".twitter"),
 synth = speechSynthesis;
 //Afunction to get the quote from the API.
-function randomQuote(){
+function nextQuote(){
     quoteBtn.classList.add("loading");
     quoteBtn.innerText = "Loading Quote...";
     fetch("https://api.quotable.io/random")
@@ -34,4 +34,4 @@ twitterBtn.addEventListener("click", ()=>{
     let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
     window.open(tweetUrl, "_blank");
 });
-quoteBtn.addEventListener("click", randomQuote);
+quoteBtn.addEventListener("click", nextQuote);
