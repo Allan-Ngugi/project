@@ -73,6 +73,10 @@ header, .content :where(i, p, span){
   align-items: center;
   justify-content: space-between;
 }
+.heart{
+  font-size: 25px;
+  color: red;
+}
 .features ul{
   display: flex;
 }
@@ -96,6 +100,10 @@ header, .content :where(i, p, span){
 ul li:is(:hover, .active){
   color: #fff;
   background: #e65c4f;
+}
+ul li .heart:hover{
+  font-size: 25px;
+  background: cyan;
 }
 ul .speech.active{
   pointer-events: none;
