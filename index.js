@@ -34,4 +34,5 @@ twitterBtn.addEventListener("click", ()=>{
     let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
     window.open(tweetUrl, "_blank");
 });
+heartBtn.addEventListener("click", toggleHeartBtn);
 quoteBtn.addEventListener("click", nextQuote);
