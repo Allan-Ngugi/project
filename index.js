@@ -9,7 +9,8 @@ function randomQuote(){
     quoteBtn.classList.add("loading");
     quoteBtn.innerText = "Loading Quote...";
     fetch("https://api.quotable.io/random")
-    .then(response => response.json()).then(result => {
+    .then(response => response.json())
+    .then(result => {
         quoteText.innerText = result.content;
         authorName.innerText = result.author;
         quoteBtn.classList.remove("loading");
