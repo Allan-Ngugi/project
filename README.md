@@ -1,4 +1,4 @@
-# _Daily Dose_
+# _Inspiration Time_
 
 ## _Simple quote display website_
 
