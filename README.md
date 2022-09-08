@@ -20,7 +20,7 @@ As a user, I can:
    author:
    txt
    GET /quote/1
-   Here is th API the data will be fetched from["http://api.quotable.io/random"]
+   Here is th API the data will be fetched from["https://api.quotable.io/random"]
 
 2. Click on the heart icon to like.
 
